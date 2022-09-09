@@ -121,7 +121,7 @@ export default class OrdersApi {
     //enviarWhatsappNuevoPedido
     async enviarWhatsappNuevoPedido(email, nombre, apellido){
         try {                
-            let from = 'whatsapp:+14155238886'  // es el celu de twilio el que envia whatsapp
+            let from = 'whatsapp:+18155423222'  // es el celu de twilio el que envia whatsapp
             let to = process.env.WHATSAPP_USER_ADMIN
             let body = `New order of ${nombre} ${apellido} - ${email}`
             // mediaUrl: [ '' ]
@@ -134,7 +134,7 @@ export default class OrdersApi {
         //enviarSMSPedidoEnProceso
         async enviarSMSPedidoEnProceso(telefonoUsuario){
             try {              
-                let from = '+18647404967'  
+                let from = '+18155423222'  
                 let to = telefonoUsuario
                 let body = `Your order has been received and is in process`
                 // mediaUrl: [ '' ]
