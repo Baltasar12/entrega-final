@@ -1,7 +1,7 @@
 {
-  "engines": { 
-  "node": "17.8.0" 
-  }, 
+  "engines": {
+    "node": "17.8.0"
+  },
   "dependencies": {
     "assert": "^2.0.0",
     "axios": "^0.27.2",
@@ -36,5 +36,26 @@
     "swagger-ui-express": "^4.5.0",
     "twilio": "^3.82.0",
     "url": "^0.11.0"
-  }
+  },
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baltasar12/entrega-final.git"
+  },
+  "author": "Baltasar Barbaglia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baltasar12/entrega-final/issues"
+  },
+  "homepage": "https://github.com/Baltasar12/entrega-final#readme",
+  "description": ""
 }
